@@ -7,7 +7,7 @@ from django.shortcuts import get_object_or_404, redirect
 from django.http import Http404
 from django.utils.http import url_has_allowed_host_and_scheme
 from django.utils.html import strip_tags
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.views.generic import FormView
 
 from .forms import FormBuilder
